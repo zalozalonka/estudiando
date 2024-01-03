@@ -75,7 +75,7 @@
 </script> -->
 
 
-<!-- <script>
+<script>
     document.getElementById("idImagen").addEventListener("click", function() {
         var token = "{{ csrf_token() }}";
         var varValue = 'pepe'; // Puedes ajustar este valor según tus necesidades
@@ -108,4 +108,4 @@
         var data = 'var=' + encodeURIComponent(varValue);
         xhr.send(data);
     })
-</script> -->
+</script>
